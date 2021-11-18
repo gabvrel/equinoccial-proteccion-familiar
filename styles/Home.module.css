@@ -255,4 +255,9 @@
   .title{
     font-size: 2rem;
   }
+  .rightContainer .rightWindow{
+    left: 100vw;
+    max-width: 100vw;
+    top: -5vh;
+  }
 }

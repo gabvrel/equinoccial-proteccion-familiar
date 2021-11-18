@@ -11,7 +11,11 @@ const Face = ({status, home, auto, pet}) => {
 
   const handleShow = () =>{
     const tl = gsap.timeline();
-    tl.to(panel.current, {xPercent: show ? 0 : -142, ease:Expo.easeInOut})
+    if(window.innerWidth <= 480){
+      tl.to(panel.current, {xPercent: show ? 0 : -100, ease:Expo.easeInOut})
+    } else {
+      tl.to(panel.current, {xPercent: show ? 0 : -142, ease:Expo.easeInOut})
+    }
     setShow(!show);
   }
 
