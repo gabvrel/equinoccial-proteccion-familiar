@@ -78,18 +78,21 @@
     align-items: center;
 }
 .infoDetails p{
-    font-weight: 800;
+    font-weight: 400;
     color: #666666;
     font-size: 1.25rem;
     font-style: normal;
 }
 .infoDetails p span{
-    font-size: 1.5rem;
+    font-size: 1.33rem;
 }
 .results{
     display: flex;
     flex-direction: row;
     margin-top: 10vh;
+}
+.results img{
+    max-height: 150px;
 }
 .resultsInfo{
     text-align: end;
@@ -115,7 +118,10 @@
         flex-direction: column;
     }
     .resultsDesc{
-        width: 80%;
+        width: 90%;
+    }
+    .resultsDesc h3{
+        font-size: 2rem;
     }
     .infoResults{
         padding: 0;

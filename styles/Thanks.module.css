@@ -52,6 +52,12 @@
     .resultsDesc{
         width: 80%;
     }
+    .resultsDesc h3{
+        font-size: 2rem;
+    }
+    .resultsDesc p{
+        text-align: inherit;
+    }
     .infoResults{
         padding: 0;
         padding-top: 30px;
@@ -77,6 +83,9 @@
     }
     .mainLogo{
         width: 80%;
+    }
+    .thanksPage{
+        margin-bottom: 5vh;
     }
   }
   

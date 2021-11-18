@@ -36,7 +36,7 @@ const Results = () => {
               <div className={styles.resultsDesc}>
                 <h3>
                   ¡Tu riesgo es muy alto! Necesitas mejorar tu
-                  <br /> respaldo
+                   respaldo
                 </h3>
                 <p>
                   Conoce las promociones que tenemos para tí. Recuerda que si

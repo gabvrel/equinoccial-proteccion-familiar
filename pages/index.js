@@ -1,7 +1,6 @@
-import {useState, useEffect} from "react"
+import {useState, useEffect, useRef} from "react"
 import Head from "next/head"
 import Router from "next/router"
-
 import styles from "../styles/Home.module.css"
 
 import Chat from "../components/chat"
@@ -91,18 +90,6 @@ export default function Home() {
           content="Protección Familiar Seguros Equinoccial"
         />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="preload"
-          href="/fonts/HelveticaNeue.ttf"
-          as="font"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/fonts/HelveticaNeue-Bold.ttf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
       {step === 0 ? <Banner /> : undefined}
       <div className={styles.main}>
