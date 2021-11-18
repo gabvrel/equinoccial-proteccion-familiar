@@ -12,6 +12,8 @@
       display: block;
       margin: 0 auto;
      padding-top: 10px;
+     width: 30%;
+     padding-top: 30px;
   }
   .blueResults{
       background-color: #11366D;
@@ -99,3 +101,47 @@
     color: #11366D;
     font-size: 1.65rem;
 }
+
+@media only screen and (max-width: 650px) and (orientation: portrait) {
+    .container{
+      padding: 0 10px
+    }
+    .blueResults{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .infoResults{
+        flex-direction: column;
+    }
+    .resultsDesc{
+        width: 80%;
+    }
+    .infoResults{
+        padding: 0;
+        padding-top: 30px;
+    }
+    .infoResults > div{
+        padding: 0 25px;
+    }
+    .resultsInfo p{
+        text-align: end;
+    }
+    .resultsInfo span{
+        display: block;
+        text-align: end;
+    }
+    .superTitle{
+        font-size: 2rem;
+    }
+    .superInfo{
+        font-size: 1.5rem;
+    }
+    .infoDetails p{
+        text-align: end;
+    }
+    .mainLogo{
+        width: 80%;
+    }
+  }
+  

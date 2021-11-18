@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css"
 
 import Chat from "../components/chat"
 import Face from "../components/face"
-import Banner from "../components/styled/Banner"
+import Banner from "../components/banner"
 
 export default function Home() {
   const [status, setStatus] = useState(0)
@@ -134,7 +134,7 @@ export default function Home() {
           />
         </div>
         {step >= 1 ? 
-        <Face {...{status}}/>
+        <Face {...{status, hogar, auto, mascota}}/>
       : undefined}
       </div>
     </>

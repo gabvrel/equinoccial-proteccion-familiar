@@ -24,6 +24,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Helvetica Neue;
+  overflow-x: hidden;
 }
 
 a {
@@ -34,6 +35,12 @@ a {
 * {
   box-sizing: border-box;
 }
-div.hbspt-form{
- 
+@media only screen and (max-width: 650px) and (orientation: portrait) {
+  h3{
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1.25rem;
+    text-align: justify;
+  }
 }

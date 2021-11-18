@@ -41,7 +41,7 @@ const Chat = ({
       {step === 1 ? (
         <div className={styles.third}>
           <h3 className={styles.title}>
-            ¿Cuentas con alguno de los <br/>
+            ¿Cuentas con alguno de los
             siguientes seguros?
           </h3>
           <div className={styles.squareContainer}>
@@ -86,7 +86,7 @@ const Chat = ({
             Atrás
           </h5>
           <h3 className={styles.title}>
-            ¿Sabías que el robo en casas se<br/> ha incrementado en el último año? 🏘
+            ¿Sabías que el robo en casas se ha incrementado en el último año? 🏘
             😥
           </h3>
           <button className={styles.whiteButton} onClick={handleFacetStep}>Si</button>

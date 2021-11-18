@@ -1,0 +1,32 @@
+.formContainer p{
+    color: #666666;
+    font-size: 1.35rem;
+    font-weight: 900;
+}
+.formContainer input{
+    display: block;
+    width: 100%;
+    background-color: #EDEDED;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+.formContainer .checkCont{
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+}
+.formContainer .checkCont input{
+    width: 10%;
+}
+.formContainer .checkCont label{
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+.formContainer .submit{
+    background-color: #039BE5;
+    color: #fff;
+}
+.formContainer .submit:hover{
+    cursor: pointer;
+}
