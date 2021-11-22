@@ -267,9 +267,10 @@
   .rightContainer{
     display: flex;
     flex-direction: column-reverse;
+    position: static;
   }
   .rightContainer .rightWindow{
-    position: relative;
+    position: static;
     max-width: 100vw;
     left: 0;
     overflow-y: hidden;
