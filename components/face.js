@@ -41,6 +41,12 @@ const Face = ({status, home, auto, pet}) => {
         </p>
         <button onClick={handleShow} className={styles.buttontransparent}>Llenar formulario</button>
       </div>
+      <div className={styles.formResp}>
+      <img src="/assets/familia.png" alt="face" className={styles.family} />
+        <div className={styles.formContainer}>
+          <Form {...{home, auto, pet}} />
+        </div>
+      </div>
     </div>
   )
 }

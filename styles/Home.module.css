@@ -224,6 +224,9 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+.formResp{
+  display: none;
+}
 @media only screen and (max-width: 650px) and (orientation: portrait) {
   .banner{
     height: 310px;
@@ -264,24 +267,20 @@
   .title{
     font-size: 1.8rem;
   }
-  .rightContainer{
-    display: flex;
-    flex-direction: column-reverse;
-    position: static;
-  }
-  .rightContainer .rightWindow{
-    position: static;
-    max-width: 100vw;
-    left: 0;
-    overflow-y: hidden;
-    height: auto;
-    min-height: 350px;
-    margin-bottom: 25px;
-  }
   .equis{
     display: none;
   }
   .mainLogo{
     width: 80% !important;
+  }
+  .rightWindow{
+    display: none !important;
+  }
+  .formResp{
+    display: block;
+    max-width: 100vw;
+  }
+  .formResp img{
+    width: 100%;
   }
 }
