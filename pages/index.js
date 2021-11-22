@@ -98,8 +98,6 @@ export default function Home() {
             <img
               src="/assets/planFmEquiLogo.svg"
               alt="face"
-              width={350}
-              height={90}
               className={styles.mainLogo}
             />
           ) : undefined}

@@ -32,6 +32,8 @@
 .mainLogo{
   position: absolute;
   top: 2vh;
+  width: 350px;
+  height: auto;
 }
 .banner {
   background-image: url("../public/assets/BANNER-min.jpg");
@@ -237,6 +239,7 @@
   .quarter{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   .main{
     flex-direction: column;
@@ -252,11 +255,11 @@
   }
   .third{
     width: 90%;
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
   .half{
     width: 75%;
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
   .title{
     font-size: 1.8rem;
@@ -271,8 +274,13 @@
     left: 0;
     overflow-y: hidden;
     height: auto;
+    min-height: 350px;
+    margin-bottom: 25px;
   }
   .equis{
     display: none;
+  }
+  .mainLogo{
+    width: 80% !important;
   }
 }
