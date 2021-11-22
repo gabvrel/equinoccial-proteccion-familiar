@@ -12,7 +12,7 @@ const Face = ({status, home, auto, pet}) => {
   const handleShow = () =>{
     const tl = gsap.timeline();
     if(window.innerWidth <= 480){
-      tl.to(panel.current, {xPercent: show ? 0 : -100, ease:Expo.easeInOut})
+      window.scrollTo(0,document.body.scrollHeight);
     } else {
       tl.to(panel.current, {xPercent: show ? 0 : -142, ease:Expo.easeInOut})
     }

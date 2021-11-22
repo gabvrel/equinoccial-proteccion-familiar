@@ -15,7 +15,6 @@
   src: url('/public/fonts/Helvetica-Oblique.eot');
   src: url('/public/fonts/Helvetica-Oblique.eot?#iefix') format('embedded-opentype'),
       url('/public/fonts/Helvetica-Oblique.woff2') format('woff2'),
-      url('/public/fonts/Helvetica-Oblique.woff') format('woff'),
       url('/public/fonts/Helvetica-Oblique.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
@@ -25,10 +24,7 @@
 @font-face {
   font-family: 'Helvetica';
   src: url('/public/fonts/HelveticaRounded-Bold.eot');
-  src: url('/public/fonts/HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/public/fonts/HelveticaRounded-Bold.woff2') format('woff2'),
-      url('/public/fonts/HelveticaRounded-Bold.woff') format('woff'),
-      url('/public/fonts/HelveticaRounded-Bold.ttf') format('truetype');
+  src: url('/public/fonts/HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -37,10 +33,7 @@
 @font-face {
   font-family: 'Helvetica';
   src: url('/public/fonts/Helvetica.eot');
-  src: url('/public/fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
-      url('/public/fonts/Helvetica.woff2') format('woff2'),
-      url('/public/fonts/Helvetica.woff') format('woff'),
-      url('/public/fonts/Helvetica.ttf') format('truetype');
+  src: url('/public/fonts/Helvetica.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -49,10 +42,7 @@
 @font-face {
   font-family: 'Helvetica';
   src: url('/public/fonts/Helvetica-Compressed.eot');
-  src: url('/public/fonts/Helvetica-Compressed.eot?#iefix') format('embedded-opentype'),
-      url('/public/fonts/Helvetica-Compressed.woff2') format('woff2'),
-      url('/public/fonts/Helvetica-Compressed.woff') format('woff'),
-      url('/public/fonts/Helvetica-Compressed.ttf') format('truetype');
+  src: url('/public/fonts/Helvetica-Compressed.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
