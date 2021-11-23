@@ -155,8 +155,7 @@ const Chat = ({
             Atrás
           </h5>
           <h3  className={styles.title}>
-            ¿Sabías que las mascotas pueden sufrir accidentes de forma
-            periódica? 😟
+            ¿Sabías que las mascotas pueden sufrir accidentes aunque las tengas vigiladas? 😟
           </h3>
           <button className={styles.whiteButton} onClick={handleFacetStep}>Si</button>
           <button className={styles.whiteButton} onClick={handleFacetStep}>No</button>

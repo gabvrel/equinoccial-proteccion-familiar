@@ -13,9 +13,9 @@ const Results = () => {
   pet = pet === "true" ? true : false
   status = parseInt(status)
 
-  const homePrice = !home ? 11.48 : 0
+  const homePrice = !home ? 10.61 : 0
   const petPrice = !pet ? 13.49 : 0
-  const autoPrice = !auto ? 60.0 : 0
+  const autoPrice = !auto ? 50.0 : 0
 
   let sum = homePrice + petPrice + autoPrice
   sum = sum.toFixed(2)
@@ -102,7 +102,7 @@ const Results = () => {
                       width="125px"
                     />
                     <p>
-                      Desde <span>$11.48</span>
+                      Desde <span>$10.61 mensuales</span>
                     </p>
                   </div>
                 ) : undefined}
@@ -114,17 +114,25 @@ const Results = () => {
                       width="125px"
                     />
                     <p>
-                      Desde <span>$13.49</span>
+                      Desde <span>$13.49 mensuales</span>
                     </p>
                   </div>
                 ) : undefined}
                 {auto === false ? (
+                  <>
                   <div className={styles.infoDetails}>
-                    <img src="/assets/acAll.svg" alt="hogarzen" />
+                    <img src="/assets/AS.svg" alt="hogarzen" width="125px" />
                     <p>
-                      Desde <span>$60.00</span>
+                      Desde <span>$25.00 mensuales</span>
                     </p>
                   </div>
+                  <div className={styles.infoDetails}>
+                    <img src="/assets/AC.svg" alt="hogarzen" width="175px" />
+                    <p>
+                      Desde <span>$25.00 mensuales</span>
+                    </p>
+                  </div>
+                  </>
                 ) : undefined}
                 <div className={styles.results}>
                   <img src="/assets/card.png" />
