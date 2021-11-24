@@ -123,6 +123,9 @@
     .resultsDesc h3{
         font-size: 2rem;
     }
+    .resultsDesc p{
+        text-align: left;
+    }
     .infoResults{
         padding: 0;
         padding-top: 30px;
@@ -142,6 +145,7 @@
     }
     .superInfo{
         font-size: 1.5rem;
+        text-align: left;
     }
     .infoDetails p{
         text-align: end;

@@ -26,6 +26,7 @@
 .formContainer .submit{
     background-color: #039BE5;
     color: #fff;
+    height: 45px !important;
 }
 .formContainer .submit:hover{
     cursor: pointer;

@@ -121,7 +121,7 @@ const Chat = ({
         <div ref={houseChoose} className={styles.half}>
           <h5 className={styles.prev} onClick={handlePrevStep}>
             {" "}
-            <img src="/assets/prev.svg" alt="prev"  />
+            <img src="/assets/atras.png" alt="prev"  />
             Atrás
           </h5>
           <h3  className={styles.title}>
@@ -136,7 +136,7 @@ const Chat = ({
         <div ref={autoChoose}  className={styles.half}>
           <h5 className={styles.prev} onClick={handlePrevStep}>
             {" "}
-            <img src="/assets/prev.svg" alt="prev" />
+            <img src="/assets/atras.png" alt="prev" />
             Atrás
           </h5>
           <h3 className={styles.title}>
@@ -151,7 +151,7 @@ const Chat = ({
         <div ref={petChoose} className={styles.half}>
           <h5 className={styles.prev} onClick={handlePrevStep}>
             {" "}
-            <img src="/assets/prev.svg" alt="prev" />
+            <img src="/assets/atras.png" alt="prev" />
             Atrás
           </h5>
           <h3  className={styles.title}>

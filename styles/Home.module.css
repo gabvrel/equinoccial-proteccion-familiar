@@ -67,6 +67,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
+  text-align: left;
 }
 .squareContainer {
   display: flex;
@@ -249,6 +250,9 @@
   }
   .squareContainer{
     flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 15px;
   }
   .square{
     margin-bottom: 10px;
@@ -282,5 +286,8 @@
   }
   .formResp img{
     width: 100%;
+  }
+  .prev img{
+    margin-right: 15px;
   }
 }
