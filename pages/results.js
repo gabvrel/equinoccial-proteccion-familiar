@@ -39,7 +39,7 @@ const Results = () => {
                    respaldo
                 </h3>
                 <p>
-                  Conoce las promociones que tenemos para tí. Recuerda que si
+                  Conoce las promociones que tenemos para ti. Recuerda que si
                   contratas 2 o más de nuestros productos, puedes ganar una gift
                   card de hasta $200.
                 </p>
@@ -127,7 +127,7 @@ const Results = () => {
                     </p>
                   </div>
                   <div className={styles.infoDetails}>
-                    <img src="/assets/AC.svg" alt="hogarzen" width="175px" />
+                    <img src="/assets/ACSmarth.svg" alt="hogarzen" width="125px" />
                     <p>
                       Desde <span>$25.00 mensuales</span>
                     </p>
