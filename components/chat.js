@@ -125,8 +125,8 @@ const Chat = ({
             Atrás
           </h5>
           <h3  className={styles.title}>
-            ¿Sabías que el robo en casas se ha incrementado en el último año? 🏘
-            😥
+            ¿Sabías que el uso de engaños o reemplazo de identidad es la primera forma de robo de casa? 
+            
           </h3>
           <button  className={styles.whiteButton} onClick={handleFacetStep}>Si</button>
           <button  className={styles.whiteButton} onClick={handleFacetStep}>No</button>
@@ -140,8 +140,7 @@ const Chat = ({
             Atrás
           </h5>
           <h3 className={styles.title}>
-            ¿Sabías que la mayor causa de accidentes es por neumáticos lizos?
-            💥🚗
+            ¿Sabías que 4 de cada 10 accidentes de tránsito se produce por fallas en el vehículo?
           </h3>
           <button className={styles.whiteButton} onClick={handleFacetStep}>Si</button>
           <button className={styles.whiteButton} onClick={handleFacetStep}>No</button>
@@ -155,7 +154,7 @@ const Chat = ({
             Atrás
           </h5>
           <h3  className={styles.title}>
-            ¿Sabías que las mascotas pueden sufrir accidentes aunque las tengas vigiladas? 😟
+            ¿Sabías que 2 de cada 5 perros o gatos pueden llegar a tener cáncer? 
           </h3>
           <button className={styles.whiteButton} onClick={handleFacetStep}>Si</button>
           <button className={styles.whiteButton} onClick={handleFacetStep}>No</button>
