@@ -90,7 +90,7 @@ const Chat = ({
                 checked={hogar}
                 onChange={() => setHogar(!hogar)}
               />
-              <img src="/assets/corazonHogar.svg" alt="house" width="150px" />
+              <img src="/assets/casa.svg" alt="house" width="150px" />
               <p>Seguro de Hogar</p>
             </div>
             <div className={styles.square} onClick={() => setAuto(!auto)} style={auto ? {backgroundColor: "#BBE5F9"} : {}}>
@@ -99,7 +99,7 @@ const Chat = ({
                 checked={auto}
                 onChange={() => setAuto(!auto)}
               />
-               <img src="/assets/corazonAuto.svg" alt="car" width="135px" />
+               <img src="/assets/carro.svg" alt="car" width="135px" />
               <p>Seguro de auto</p>
             </div>
             <div className={styles.square} onClick={() => setMascota(!mascota)} style={mascota ? {backgroundColor: "#BBE5F9"} : {}}>
@@ -108,7 +108,7 @@ const Chat = ({
                 checked={mascota}
                 onChange={() => setMascota(!mascota)}
               />
-             <img src="/assets/corazonPerro.svg" alt="pet" width="125px"/>
+             <img src="/assets/perro.svg" alt="pet" width="125px"/>
               <p>Seguro de mascotas</p>
             </div>
           </div>

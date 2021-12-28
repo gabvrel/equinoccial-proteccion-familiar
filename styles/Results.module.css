@@ -16,7 +16,7 @@
      padding-top: 30px;
   }
   .blueResults{
-      background-color: #11366D;
+      background-color: #F0F9FD;
       border-radius: 5px;
       margin-top: 5vh;
       display: flex;
@@ -32,10 +32,12 @@
   .resultsDesc h3{
       font-size: 2.5rem;
       margin-bottom: 10px;
+      color: #11366D;
   }
   .resultsDesc p{
       font-size: 1.5rem;
       font-weight: 700;
+      color: #11366D;
   }
 .infoResults{
     background-color: #fff;

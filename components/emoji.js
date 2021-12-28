@@ -24,7 +24,7 @@ const Emoji = ({status}) => {
       : status === 3
       ? "#00ACFF"
       : "white"
-      
+
   const sqSize = 280
   // SVG centers the stroke width on the radius, subtract out so circle fits in square
   const radius = (sqSize - 20) / 2
@@ -39,7 +39,7 @@ const Emoji = ({status}) => {
   return (
     <div className={styles.progress}>
       <svg width={sqSize} height={sqSize} viewBox={viewBox}>
-        <circle
+        {/* <circle
           className={styles.circlebackground}
           cx={sqSize / 2}
           cy={sqSize / 2}
@@ -59,23 +59,74 @@ const Emoji = ({status}) => {
             strokeDasharray: dashArray,
             strokeDashoffset: dashOffset,
           }}
-        />
+        /> */}
       </svg>
       {status === 0 ? (
-        <img className={styles.smile} src="/assets/sad.svg" alt="face" />
+        <img className={styles.smile} src="/assets/triste.svg" alt="face" />
       ) : undefined}
       {status === 1 ? (
-        <img className={styles.smile} src="/assets/happy4.svg" alt="face" />
+        <img className={styles.smile} src="/assets/regular.svg" alt="face" />
       ) : undefined}
       {status === 2 ? (
-        <img className={styles.smile} src="/assets/happy2.svg" alt="face" />
+        <img className={styles.smile} src="/assets/medio.svg" alt="face" />
       ) : undefined}
       {status === 3 ? (
-        <img className={styles.smile} src="/assets/happy3.svg" alt="face" />
+        <img className={styles.smile} src="/assets/feliz.svg" alt="face" />
       ) : undefined}
       {status === 4 ? (
-        <img className={styles.smile} src="/assets/happy.svg" alt="face" />
+        <img className={styles.smile} src="/assets/feliz.svg" alt="face" />
       ) : undefined}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 416.62 35.1"
+        width="350"
+      >
+        <rect
+          className={status >= 1 ? styles.rectActive : styles.rect}
+          width="137.12"
+          height="35.1"
+        />
+        <rect
+          className={status >= 2 ? styles.rectActive : styles.rect}
+          x="139.75"
+          width="137.12"
+          height="35.1"
+        />
+        <rect
+          className={status >= 3 ? styles.rectActive : styles.rect}
+          x="279.5"
+          width="137.12"
+          height="35.1"
+        />
+      </svg>
+      <div className={styles.descFace}>
+        {status === 1 ? (
+          <p>
+            <b>¡Mmm ya vas cerca! Estás 33% protegido </b>
+             ante eventualidades con tu familia.
+          </p>
+        ) : 
+        status === 2 ? (
+          <p>
+            <b>¡Ya casi! Estás 66% protegido</b> y tu familia
+            ante los percances en tu vehículo, hogar o
+            con tu mascota. 
+          </p>
+        ): 
+        status === 3 ? (
+          <p>
+            <b>¡Felicidades! Estás 100% protegido!</b>
+          </p>
+        ): 
+        status === 0 ? (
+          <p>
+            <b>¡Oh no! Estás 0% protegido </b>ante cualquier
+eventualidad en tu vehículo, hogar o
+mascota.
+          </p>
+        )
+      : undefined}
+      </div>
     </div>
   )
 }
