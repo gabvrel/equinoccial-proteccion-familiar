@@ -242,10 +242,11 @@
   .banner{
     height: 310px;
     background-size: cover;
-    background-position-x: -25vw;
     justify-content: flex-end;
     align-items: baseline;
     padding-top: 15px;
+    height: 32vh;
+    background-position-x: -25px;
   }
   .container{
     padding: 0 10px

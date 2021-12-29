@@ -30,8 +30,8 @@ const Chat = ({
 
   useEffect(() => {
     const tl = gsap.timeline();
-    tl.from(titleRef.current, {yPercent: -350 ,opacity: 0, duration:2, ease:Expo.easeInOut},1)
-      .from(subtitleRef.current, {yPercent: -350 ,opacity: 0, duration:2, ease:Expo.easeInOut},1.5)
+   /*  tl.from(titleRef.current, {yPercent: -350 ,opacity: 0, duration:2, ease:Expo.easeInOut},1) */
+    tl.from(subtitleRef.current, {yPercent: -350 ,opacity: 0, duration:2, ease:Expo.easeInOut},1.5)
       .from(buttonRef.current, {yPercent: -350 ,opacity: 0, duration:2, ease:Expo.easeInOut},2)
   }, [])
 
@@ -64,9 +64,9 @@ const Chat = ({
     <div>
       {step === 0 ? (
         <div className={styles.quarter}>
-          <h3 ref={titleRef} className={styles.title}>
+          {/* <h3 ref={titleRef} className={styles.title}>
             Toda la protección en un solo seguro 👪🔒❤️
-          </h3>
+          </h3> */}
           <h5 ref={subtitleRef} className={styles.subtitle}>
             Ten la tranquilidad de tener toda la protección en una sola póliza.
             Con las siguientes preguntas queremos conocer que tan protegido

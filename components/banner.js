@@ -13,12 +13,12 @@ const Banner = () => {
   }, [])
   return (
     <div className={styles.banner} ref={BannerRef}>
-      <Image
+      {/* <Image
         src="/assets/familiarLogo.svg"
         alt="Picture of the author"
         width={300}
         height={50}
-      />
+      /> */}
     </div>
   )
 }
